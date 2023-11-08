@@ -1,0 +1,31 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", class="img-fluid", alt="imagen sobre nosotros")
+            .col-md-7
+                h1= pagina
+                p.
+                h2 #{temario}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus augue vel accumsan blandit. Maecenas nisi enim, eleifend ut sagittis quis, sodales ac dolor. Vivamus tempor quis augue vitae tempus. Sed nec leo id orci hendrerit euismod vel venenatis est. Proin condimentum est id suscipit interdum. Quisque imperdiet bibendum tortor vitae malesuada. Aliquam ultrices dui at velit scelerisque consequat non in augue. 
+
+                p Pellentesque eros magna, consectetur eget nunc et, ornare varius ligula. Quisque feugiat leo quis magna condimentum ultrices quis sit amet arcu. Vivamus dignissim tristique justo. Sed non turpis mauris. Phasellus at sagittis diam, eu maximus arcu. Cras iaculis eget metus id imperdiet. Nulla facilisi. Sed non placerat leo, a posuere erat. Ut placerat condimentum augue et semper. In pellentesque placerat erat, a luctus velit porta nec. Sed metus magna, interdum in ultrices eu, tincidunt nec eros. 
+
+                p Pellentesque mollis tortor nec tellus auctor, et feugiat odio egestas. Sed eget magna a urna elementum aliquet id et nibh. Aenean vel maximus turpis, eget bibendum eros. Morbi suscipit sapien at lacus semper mollis. Pellentesque efficitur, mauris sed pellentesque venenatis, tortor erat venenatis sem, ac tincidunt mi nulla sit amet nunc. Cras dapibus at metus ut pellentesque. Vivamus ultricies quam ut risus mattis tristique. Nunc massa lorem, gravida in velit ut, mollis euismod elit. Phasellus id fermentum ante. Mauris viverra volutpat felis id tincidunt. 
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad" class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Pellentesque eros magna, consectetur eget nunc et, ornare varius ligula. Quisque feugiat leo quis magna condimentum ultrices quis sit amet arcu.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos" class="img-fluid mb-4")
+                    h2.mb-4 Destinos
+                    p Pellentesque eros magna, consectetur eget nunc et, ornare varius ligula. Quisque feugiat leo quis magna condimentum ultrices quis sit amet arcu.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios" class="img-fluid mb-4")
+                    h2.mb-4 Precios
+                    p Pellentesque eros magna, consectetur eget nunc et, ornare varius ligula. Quisque feugiat leo quis magna condimentum ultrices quis sit amet arcu.
